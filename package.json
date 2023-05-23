@@ -1,0 +1,25 @@
+{
+  "name": "modesenbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server --watch db.json --port 8080",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akkukumari/modesenbackend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akkukumari/modesenbackend/issues"
+  },
+  "homepage": "https://github.com/Akkukumari/modesenbackend#readme",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}
